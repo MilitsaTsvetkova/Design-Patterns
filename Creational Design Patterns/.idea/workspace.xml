@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/TestFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -60,6 +60,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -79,6 +88,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -92,8 +102,9 @@
         <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/PC.java" />
         <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/Server.java" />
         <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/model/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerFactory.java" />
         <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/TestFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerType.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerFactory.java" />
       </list>
     </option>
   </component>
@@ -171,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576621065165" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576621473624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -186,19 +197,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestFactory">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Design-Patterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPattern.TestFactory" />
+  <component name="RunManager" selected="Application.ComputerClient">
+    <configuration name="ComputerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPattern.ComputerClient" />
       <module name="Design-Patterns" />
       <extension name="coverage">
         <pattern>
@@ -210,13 +211,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Design-Patterns" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TestFactory" />
+      <item itemvalue="Application.ComputerClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFactory" />
+        <item itemvalue="Application.ComputerClient" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +242,14 @@
       <option name="presentableId" value="Default" />
       <updated>1576619506595</updated>
     </task>
+    <task id="LOCAL-00001" summary="added enum class">
+      <created>1576621248924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576621248924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -264,6 +283,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added enum class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added enum class" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -293,20 +316,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/TestFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/TestFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/factory/ComputerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
