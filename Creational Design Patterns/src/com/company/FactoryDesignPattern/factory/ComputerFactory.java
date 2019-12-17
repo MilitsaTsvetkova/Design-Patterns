@@ -6,14 +6,18 @@ import com.company.FactoryDesignPattern.model.Server;
 
 public class ComputerFactory {
 
-    public static Computer getComputer(String type, String ram, String hdd, String cpu){
+    public static Computer getComputer(ComputerType type, String ram, String hdd, String cpu){
+
+        Computer computer = null;
         switch (type){
-            case "PC":
-                return new PC(ram,hdd,cpu);
-            case "Server":
-                return new Server(ram,hdd,cpu);
-                default:
-                    return null;
+            case PC:
+               computer= new PC(ram,hdd,cpu);
+               break;
+            case Server:
+                computer = new Server(ram,hdd,cpu);
+                break;
+
         }
+        return computer;
     }
 }
