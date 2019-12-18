@@ -1,8 +1,8 @@
-package com.company.FactoryDesignPattern;
+package com.company.FactoryDesignPattern.ComputerExample;
 
-import com.company.FactoryDesignPattern.factory.ComputerFactory;
-import com.company.FactoryDesignPattern.factory.ComputerType;
-import com.company.FactoryDesignPattern.model.Computer;
+import com.company.FactoryDesignPattern.ComputerExample.factory.ComputerFactory;
+import com.company.FactoryDesignPattern.ComputerExample.factory.ComputerType;
+import com.company.FactoryDesignPattern.ComputerExample.model.Computer;
 
 public class ComputerClient {
     public static void main(String[] args) {

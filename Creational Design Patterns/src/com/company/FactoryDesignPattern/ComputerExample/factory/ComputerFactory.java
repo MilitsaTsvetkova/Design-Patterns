@@ -1,8 +1,8 @@
-package com.company.FactoryDesignPattern.factory;
+package com.company.FactoryDesignPattern.ComputerExample.factory;
 
-import com.company.FactoryDesignPattern.model.Computer;
-import com.company.FactoryDesignPattern.model.PC;
-import com.company.FactoryDesignPattern.model.Server;
+import com.company.FactoryDesignPattern.ComputerExample.model.Computer;
+import com.company.FactoryDesignPattern.ComputerExample.model.PC;
+import com.company.FactoryDesignPattern.ComputerExample.model.Server;
 
 public class ComputerFactory {
 

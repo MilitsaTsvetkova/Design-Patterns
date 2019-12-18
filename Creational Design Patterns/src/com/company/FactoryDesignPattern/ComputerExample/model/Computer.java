@@ -1,4 +1,4 @@
-package com.company.FactoryDesignPattern.model;
+package com.company.FactoryDesignPattern.ComputerExample.model;
 
 public abstract class Computer {
 
