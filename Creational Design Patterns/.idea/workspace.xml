@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="943caa33-0518-4536-9d03-f412ec199c52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/Employees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/PrototypePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/TestAbstractFactoryDesignPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/LaptopFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/PCFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ServerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/PC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BuilderDesignPattern/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BuilderDesignPattern/TestBuilderPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SerializedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SerializedSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SingletonSerializedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SingletonSerializedTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,104 +26,123 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/ThreadSafeSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/DoubleCheckedLockingPrinciple.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/PCFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/BillPughSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/ReflectionSingletonTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/EnumSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SerializedSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SingletonSerializedTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/Employees.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/TestAbstractFactoryDesignPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#732#740#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/PrototypePatternTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BuilderDesignPattern/Computer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-228">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/ComputerExample/factory/ComputerType.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/BuilderDesignPattern/TestBuilderPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Laptop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <folding>
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/LaptopFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/PC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Server.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,6 +153,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -164,6 +192,16 @@
         <option value="$PROJECT_DIR$/src/com/company/SingleTonDesignPattern/SingletonSerializedTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/Employees.java" />
         <option value="$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/PrototypePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerAbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/PCFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ServerFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/LaptopFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/TestAbstractFactoryDesignPattern.java" />
+        <option value="$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Laptop.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BuilderDesignPattern/Computer.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BuilderDesignPattern/TestBuilderPattern.java" />
       </list>
     </option>
   </component>
@@ -212,7 +250,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="PrototypeDesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="BuilderDesignPattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,8 +261,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577012581469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577031065457" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\militsa.tsvetkova\Desktop\Telerik\GitHub Profile\Design-Patterns\Creational Design Patterns\src\com\company\AbstractFactoryPattern" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,33 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrototypePatternTest">
-    <configuration name="ComputerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPattern.ComputerExample.ComputerClient" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.FactoryDesignPattern.ComputerExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenerateBill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FactoryDesignPattern.CalculateElectricityBill.GenerateBill" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.FactoryDesignPattern.CalculateElectricityBill.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestBuilderPattern">
     <configuration name="PrototypePatternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.PrototypeDesignPattern.PrototypePatternTest" />
       <module name="Design-Patterns" />
@@ -304,20 +321,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAbstractFactoryDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AbstractFactoryPattern.TestAbstractFactoryDesignPattern" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.AbstractFactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBuilderPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BuilderDesignPattern.TestBuilderPattern" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.BuilderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ComputerClient" />
-      <item itemvalue="Application.GenerateBill" />
       <item itemvalue="Application.ReflectionSingletonTest" />
       <item itemvalue="Application.SingletonSerializedTest" />
       <item itemvalue="Application.PrototypePatternTest" />
+      <item itemvalue="Application.TestAbstractFactoryDesignPattern" />
+      <item itemvalue="Application.TestBuilderPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBuilderPattern" />
+        <item itemvalue="Application.TestAbstractFactoryDesignPattern" />
         <item itemvalue="Application.PrototypePatternTest" />
         <item itemvalue="Application.SingletonSerializedTest" />
         <item itemvalue="Application.ReflectionSingletonTest" />
-        <item itemvalue="Application.GenerateBill" />
-        <item itemvalue="Application.ComputerClient" />
       </list>
     </recent_temporary>
   </component>
@@ -360,14 +403,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576947279322</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementation of Prototype Design Pattern">
+      <created>1577012653793</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577012653870</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,27 +450,14 @@
     <MESSAGE value="added enum class,made some corrections" />
     <MESSAGE value="another example of Factory Pattern" />
     <MESSAGE value="Different Implementations of Singleton Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Different Implementations of Singleton Design Pattern" />
+    <MESSAGE value="Implementation of Prototype Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation of Prototype Design Pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/ComputerExample/model/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/ComputerExample/model/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -603,8 +640,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/PrototypeDesignPattern/PrototypePatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/ComputerExample/model/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FactoryDesignPattern/ComputerExample/model/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerAbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ServerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/ComputerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/PC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/PCFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/factories/LaptopFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/model/Laptop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AbstractFactoryPattern/TestAbstractFactoryDesignPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BuilderDesignPattern/TestBuilderPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/BuilderDesignPattern/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
