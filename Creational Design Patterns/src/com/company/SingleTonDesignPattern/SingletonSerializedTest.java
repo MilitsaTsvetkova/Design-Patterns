@@ -6,10 +6,6 @@ import java.io.*;
 
 public class SingletonSerializedTest {
 
-    protected Object readresolve(){
-        return SerializedSingleton.getInstance();
-    }
-
     public static void main(String[] args) throws FileNotFoundException, IOException,ClassNotFoundException {
 
 
